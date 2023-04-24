@@ -1,0 +1,47 @@
+h1 {
+  color: #00c318;
+  font-size: 2rem !important; 
+  font-weight: 700 !important;
+}
+h2 {
+  color: #00b516 !important;
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+}
+ul {
+  margin-bottom: 2rem;
+}
+p {
+  margin: 1rem 0;
+}
+ * > * img {
+  margin-bottom: 2rem;
+}
+ * > * > code,
+ * > code {
+  background-color: #4a4a4a;
+  padding: 0.25rem;
+  border-radius: 6px;
+}
+ * > pre {
+  margin: 1rem 0;
+  background-color: rgb(58, 57, 57);
+  padding: 0.75rem;
+  overflow-x: scroll;
+  border-radius: 12px;
+}
+blockquote {
+  border-left: 3px rgb(167, 167, 167) solid;
+  color: rgb(167, 167, 167);
+  padding-left: 0.55rem;
+  margin: 1rem 0;
+}
+ * > li::before {
+  content: '•';
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.notranslate {
+  overflow: hidden;
+}
